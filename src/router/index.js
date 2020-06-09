@@ -13,6 +13,11 @@ Vue.use(VueRouter)
       name: 'notFind',
       component: ()=>import('../common/notFind')
     },
+    {
+      path: '/login',
+      name: 'login',
+      component: ()=>import('../views/page/login.vue')
+    },
 /*  {
     path: '/about',
     name: 'About',
